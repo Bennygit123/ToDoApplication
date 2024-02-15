@@ -1,0 +1,19 @@
+.landingform {
+    margin-left: 10px;
+    width: 50%; /* Set the form width to half of the screen */
+}
+
+/* Add your additional styling for responsiveness or any other adjustments */
+.container {
+    max-width: 800px; /* Set a maximum width for better responsiveness */
+}
+
+.navbar {
+    margin-bottom: 20px; /* Add margin to separate the navbar from the content */
+}
+
+.list-group-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add spacing between checkbox and label */
+}
