@@ -24,6 +24,8 @@ function markTasksWithCheckboxes(todos) {
         label.setAttribute('for', `task-${task.id}`);
         label.textContent = task.title;
 
+        checkbox.style.marginRight = '10px';
+
         listItem.appendChild(checkbox);
         listItem.appendChild(label);
 
